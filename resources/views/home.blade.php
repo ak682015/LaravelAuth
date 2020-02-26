@@ -13,8 +13,9 @@
                             {{ session('status') }}
                         </div>
                     @endif
+                        <a href="/questionnaires/create" class="btn btn-dark">Create New Questionnaire</a>
+                        <a href="/questionnaires" class="btn btn-dark">All Questionnaire</a>
 
-                    You are logged in!
                 </div>
             </div>
         </div>
